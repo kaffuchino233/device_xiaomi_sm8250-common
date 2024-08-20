@@ -411,9 +411,6 @@ vendor/etc/media_profiles_kona.xml:vendor/etc/media_profiles_V1_0.xml
 vendor/bin/mlid
 vendor/lib64/libminksocket.so
 
-# NVRAM
-vendor/bin/nv_mac
-
 # Peripheral manager
 vendor/bin/pm-proxy
 vendor/bin/pm-service
