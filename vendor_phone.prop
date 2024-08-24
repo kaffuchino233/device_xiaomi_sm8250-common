@@ -12,3 +12,6 @@ persist.vendor.radio.manual_nw_rej_ct=1
 persist.vendor.radio.mbn_cdma=/vendor/firmware_mnt/image/modem_pr/mcfg/configs/mcfg_sw/oem_sw_j11.txt
 persist.vendor.radio.redir_party_num=1
 ro.com.android.dataroaming=true
+
+# mdm helper
+persist.vendor.mdm_helper.fail_action=retry
