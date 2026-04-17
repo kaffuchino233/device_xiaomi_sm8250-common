@@ -16,4 +16,7 @@
     <!-- Blur radius behind Notification Shade -->
     <dimen name="max_shade_window_blur_radius">17dp</dimen>
 
+    <!-- Whether to show the "glanceable hub" settings. -->
+    <bool name="config_show_glanceable_hub_toggle_setting">true</bool>
+
 </resources>
