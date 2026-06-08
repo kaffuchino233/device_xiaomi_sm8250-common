@@ -240,11 +240,11 @@ $(call soong_config_set,stagefright,target_disable_thumbnail_block_model,true)
 
 # NFC
 PRODUCT_PACKAGES += \
-    android.hardware.nfc-service.nxp \
-    com.android.nfc_extras \
     NfcNci \
-    SecureElement \
-    Tag
+    Tag \
+    android.hardware.nfc@1.2-service \
+    com.android.nfc_extras \
+    libnfc_vendor_extn_sys
 
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.nfc.ese.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_$(TARGET_NFC_SKU)/android.hardware.nfc.ese.xml \
