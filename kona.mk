@@ -189,6 +189,9 @@ $(call soong_config_set,surfaceflinger,udfps_lib,//hardware/xiaomi:libudfps_exte
 endif
 endif
 
+# ION
+$(call soong_config_set_bool,libion,legacy_impl,true)
+
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health-service.qti
