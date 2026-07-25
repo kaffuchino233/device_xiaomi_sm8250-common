@@ -118,6 +118,7 @@ namespace_imports = [
     'vendor/qcom/opensource/commonsys/display',
     'vendor/qcom/opensource/dataservices',
     'vendor/qcom/opensource/display',
+    'vendor/qcom/common/vendor/keymaster',
     'vendor/xiaomi/sm8250-common',
 ]
 
