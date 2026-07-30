@@ -342,6 +342,13 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_PACKAGES += \
     android.hardware.thermal-service.qti
 
+# Telephony
+PRODUCT_PACKAGES += \
+    xiaomi-telephony-stub
+
+PRODUCT_BOOT_JARS += \
+    xiaomi-telephony-stub
+
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb-service.qti \
