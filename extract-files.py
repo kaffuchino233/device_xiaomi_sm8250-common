@@ -112,6 +112,7 @@ lib_fixups: lib_fixups_user_type = {
 namespace_imports = [
     'hardware/xiaomi',
     'vendor/qcom/common/vendor/adreno/r',
+    'vendor/qcom/common/vendor/media/legacy',
     'vendor/qcom/common/vendor/keymaster',
     'vendor/xiaomi/sm8250-common',
 ]
